@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>weather app</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- header section --> 
+        <div id="header-div">
+            <div>city name</div>         
+            <div class="container" id="div1">
+                <input type="text" id="enter-city">
+                <img  src="search.webp"  id="Search">
+                <!-- <button type="button"  > Search</button> -->
+            </div>
+            <div id="icons">
+                <img src="weather.png">
+                <img src="themes.png">
+                <img src="menu.webp">
+            </div>
+            
+        </div>
+
+        <!-- first overview card -->    
+        <div id="overview-div"> 
+            <div id="results">
+                <p id="result"></p>
+                current time
+                sun rise / sun set
+            </div>
+            <div id="overview-cards">
+                <div>air quality</div>
+                <div>humidity</div> 
+                <div>wind</div> 
+                <div>visibility</div> 
+            </div>
+            
+        </div>
+
+        <!-- over view/days report -->
+        <div id="hourlyreport-div">            
+            <div id="day-selection">day wise weather/ selected day hourly report</div>
+            <div id="day-report">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+            </div>
+            
+        </div>
+        
+        <!-- weather details cards -->
+        <div id="details-cards">
+            <div>temp</div>
+            <div>feels like</div>
+            <div>humidity</div>
+            <div>air quality</div>
+            <div>wind speed</div>
+            <div>visibility</div>
+            <div>cloud cover</div>
+            <div>moon deatials/full moon</div>
+            <div>sun details - raise/down</div>            
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
